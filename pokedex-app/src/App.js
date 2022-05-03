@@ -1,6 +1,5 @@
-import react from "react";
-import axios from "axios";
-import { Navigate } from "./pages/navigate/Navigate";
+import React from "react";
+import RoutesApp from './routes';
 
 
 
@@ -8,7 +7,7 @@ import { Navigate } from "./pages/navigate/Navigate";
 function App() {
   return (
     <div >
-     <Navigate/>
+     <RoutesApp/>
     </div>
   );
 }
