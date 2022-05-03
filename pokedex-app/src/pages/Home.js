@@ -1,11 +1,25 @@
-import react from "react";
+import React from "react";
+import { useNavigate } from 'react-router-dom';
 
- export default function Home() {
+
+
+
+
+
+const Home = () => {
+
+  const navigate = useNavigate()
+
+ 
+
   return (
-    <div >
-     home
-    </div>
+    
+        <div>
+         oii
+        </div>
+      
   );
 }
 
-
+export default Home;
+ 
