@@ -11,6 +11,7 @@ const RoutesApp = () => {
       <BrowserRouter>
           <Routes>
               <Route index element ={<Home />} />
+              {/* <Route path="/home" element ={<Home />} /> */}
               <Route path="/details" element ={<Detail />} />
               <Route path="/pokedex" element ={<Pokedex/>} />
           </Routes>
