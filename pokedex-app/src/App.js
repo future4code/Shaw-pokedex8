@@ -1,14 +1,17 @@
 import React from "react";
-import RoutesApp from './routes';
+import { BrowserRouter } from "react-router-dom";
+import GlobalStates from "../src/Global/GlobalStates";
+import RouterApp from "./routes/Router";
 
+const App = () => {
 
-
-
-function App() {
   return (
-    <div >
-     <RoutesApp/>
-    </div>
+    <GlobalStates>
+    <BrowserRouter>
+      
+      <RouterApp  />
+    </BrowserRouter>
+    </GlobalStates>
   );
 }
 
