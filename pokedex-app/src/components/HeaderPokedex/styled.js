@@ -23,9 +23,10 @@ export const Nav= styled.nav`
   width: 100%;
     .icon{
     font-size:1.5em;
-    color: red;
+    color: #3F6DB3;
   }
 `
+
 
 export const Button =styled.button`
   position: relative;
