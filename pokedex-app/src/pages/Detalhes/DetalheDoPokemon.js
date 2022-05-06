@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../Header/Header";
 
+
 const DetalhesDoPokemon= () => {
     const [info, setInfo]= useState([])
     const {id}= useParams();
