@@ -1,16 +1,14 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Natã Lucas Silva
+- Willhan marques de carvalho
+- Mateus Vinicius Almeida
 
-Link do Surge: www.link.com.br
+Link do Surge: https://magical-jam.surge.sh/
 
 O que funciona:
-- Item 1
-- Item 2
+- Tudo que testamos está funcionando
 
 O que não funciona: 
-- Item 3
-- Item 4
+- 
